@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 384M
+  instances: 1
+  domain: mybluemix.net
+  name: nrfplays
+  host: nrfplays
+  disk_quota: 1024M
+  services:
+  - nrfplays-cloudantNoSQLDB
+  - Auto-Scaling-yz
+  - NRF Cloudant
